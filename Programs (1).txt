@@ -1,0 +1,350 @@
+@Author : Deepak Kumar Goswami
+------------------------------
+
+*******************Factorial in java*************
+-------------------------------------------------
+import java.io.*;
+public class Factorial {
+public static void main(String[] args)throws Exception {
+	BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+	int num,fact=1;
+	System.out.println("Enter the number for factorial");
+	num=Integer.parseInt(br.readLine());
+	for(int i=1;i<=num;i++){
+		fact=fact*i;
+	}
+	System.out.println("Factorial : "+fact);
+}
+}
+
+Output :
+==========
+C:\java\practice>javac Factorial.java
+
+C:\java\practice>java Factorial
+Enter the value of n
+5
+Factorial no of the value 5 is 120
+=========================================================================
+************************* Reverse of numbers in java *****************
+import java.io.*;
+class Reverse{
+	public static void main(String arg[])throws IOException{
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		int n,r,rev=0;
+		System.out.println("enter the value for n");
+		n=Integer.parseInt(br.readLine());
+		while(n>0){
+			r=n%10;
+			rev=rev*10+r;
+			n=n/10;
+		}
+		System.out.println("Reverse value is="+rev);
+		
+	}
+}
+
+Output:
+=======
+C:\java\practice>java Reverse
+enter the value for n
+123
+Reverse value is=321
+
+======================================================================================
+***************************** Program Palindrome number in java **************
+			     =====================================
+import java.io.*;
+class Pallindrome{
+	public static void main(String arg[])throws IOException{
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		int n,r,rev=0,t;
+		System.out.println("enter the value for n");
+		n=Integer.parseInt(br.readLine());
+		t=n;
+		while(t>0){
+			r=t%10;
+			rev=rev*10+r;
+			t=t/10;
+		}
+		if(n==rev){
+		
+			System.out.println("Pallindrome");
+		}
+		else{
+			System.out.println("Not Pallindrome");
+		}
+		
+	}
+}
+
+Output :
+=========
+C:\java\practice>java Pallindrome
+enter the value for n
+121
+Pallindrome
+
+=========================================================================================
+********************* Program for Armstrong number in java **********************
+		    ========================================
+
+import java.io.*;
+class Armstrong{
+	public static void main(String arg[])throws IOException{
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		int n,r,t;//s=0,t;
+		double s=0;
+		System.out.println("enter the value for n");
+		n=Integer.parseInt(br.readLine());
+		t=n;
+		while(t>0){
+			r=t%10;
+			s=s+Math.pow(r,3);
+			t=t/10;
+		}
+		if(n==s){
+		
+			System.out.println("Armstrong");
+		}
+		else{
+			System.out.println("Not Armstrong");
+		}
+		
+	}
+}
+
+Output :
+=========
+C:\java\practice>javac Armstrong.java
+
+C:\java\practice>java Armstrong
+enter the value for n
+153
+Armstrong
+
+========================================================================================
+*********************** Program of swaping in java *******************
+			===========================
+import java.io.*;
+class Swap{
+	public static void main(String arg[])throws IOException{
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		int a,b,t;
+		System.out.println("enter the values of a and b");
+		a=Integer.parseInt(br.readLine());
+		b=Integer.parseInt(br.readLine());
+		System.out.println("before swapping of values of a and b are"+a+" "+b);
+		t=a;
+		a=b;
+		b=t;
+		System.out.println("after swapping the values of a and b are"+a+" "+b);
+	}
+}
+
+Output : 
+==========
+C:\java\practice>javac Swap.java
+
+C:\java\practice>java Swap
+enter the values of a and b
+2
+3
+before swapping of values of a and b are2 3
+after swapping the values of a and b are3 2
+
+=======================================================================================
+******************Program for Prime in java ***************************
+import java.io.*;
+class Prime{
+	public static void main(String arg[])throws IOException{
+	BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+	int n,i,c=0;
+	System.out.println("Enter the value of n");
+	n=Integer.parseInt(br.readLine());
+	for(i=1;i<=n;i++){
+		if(n%i==0)
+		c=c+1;
+	}
+	if(c==2)
+		System.out.println("Entered no. is Prime");
+	else
+		System.out.println("Entered no. is not Prime");
+	}
+}
+
+Output :
+==========
+C:\java\practice>javac Prime.java
+
+C:\java\practice>java Prime
+Enter the value of n
+7
+Entered no. is Prime
+
+===============================================================================================
+public class HighestNumberOfArray {
+public static void main(String... args) {
+	int array[]={89,76,56,99,5,78};
+	int temp=array[0];
+	for(int i=1;i<array.length;i++){
+		if(temp<array[i]){
+			temp=array[i];
+		}
+	}
+	System.out.println(temp);
+}
+}
+
+=======================================================================================
+public class Finonacci {
+public static void main(String[] args)throws IOException {
+	BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+	int prev=1,next=1,sum,n;
+	System.out.println("enter the no.");
+	n=Integer.parseInt(br.readLine());
+	for(int i=1;i<=n;i++){
+		System.out.println(prev);
+		sum=prev+next;
+		prev=next;
+		next=sum;
+	}
+	
+}
+}
+======================================================================================
+**************************
+public class Palindrome_Number {
+public static void main(String[] args) throws Exception{
+	BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+	int num,rem,rev=0;
+	System.out.println("Enter the no.");
+	num=Integer.parseInt(br.readLine());
+	int temp=num;
+	while(temp>0){
+		rem=temp%10;
+		rev=(rev*10)+rem;
+		temp=temp/10;
+	}
+	System.out.println("Reverse : "+rev);
+	if(num==rev){
+		System.out.println("number is palindrome");
+	}else{
+		System.out.println("number is not palindrome");
+	}
+	
+}
+}
+-----------------------------------------------------------------------
+public class Palindrome_String {
+public static void main(String[] args) throws Exception{
+	BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+	String str,rev="";
+	System.out.println("Enter the String");
+	str=br.readLine();
+	for(int i=str.length()-1;i>=0;i--){
+		rev=rev+str.charAt(i);
+	}
+	System.out.println(rev);
+	if(rev.equals(str)){
+		System.out.println("Palindrome");
+	}else{
+		System.out.println("not palindrome");
+	}
+}
+}
+---------------------------------------------------------------------
+public class PrimeNumber {
+public static void main(String[] args) throws Exception{
+	BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+	int num,count=0;
+	System.out.println("inter the number for prime number");
+	num=Integer.parseInt(br.readLine());
+	for(int i=1;i<=num;i++){
+		if(num%i==0)
+			count=count+1;
+	}
+	if(count==2){
+		System.out.println("Prime");
+	}else{
+		System.out.println("not prime");
+	}
+}
+}
+------------------------------------------------------------
+public class ReverseString{
+public static void main(String[] args) throws Exception{
+	BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+	System.out.println("Enter the string");
+	String s1=br.readLine();
+	String result="";
+	String s2[]=s1.split("");
+	for(int i=s2.length-1;i>0;i--){
+		result=result+s2[i];
+	}
+	System.out.println(result);
+}
+}
+---------------------------------------------------------------------
+
+
+program for Map(iterating the data according to key,value and key-value)
+**********************************************************************
+package com.map;
+
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class Client1 {
+public static void main(String[] args) {
+	Map map=new LinkedHashMap();
+	map.put("eid", new Integer(9999));
+	map.put("phone", new Long(9999999L));
+	map.put("name", "srinivas");
+	map.put("valid", new Boolean(true));
+	System.out.println(map);
+	System.out.println("According to KEYS");
+	Set s1=map.keySet();
+	Iterator it1=s1.iterator();
+	while(it1.hasNext()){
+		//it1.next();
+		System.out.println(it1.next());
+	}
+	System.out.println("According to Values");
+	Collection col=map.values();
+	Iterator it3=col.iterator();
+	while(it3.hasNext()){
+		System.out.println(it3.next());
+	}
+	System.out.println("According to Keys and Values");
+	Set s2=map.entrySet();
+	Iterator it2=s2.iterator();
+	while(it2.hasNext()){
+		System.out.println(it2.next());
+	}
+}
+}
+output:
+-------
+{eid=9999, phone=9999999, name=srinivas, valid=true}
+According to KEYS
+-----------------
+eid
+phone
+name
+valid
+According to Values
+-------------------
+9999
+9999999
+srinivas
+true
+According to Keys and Values
+----------------------------
+eid=9999
+phone=9999999
+name=srinivas
+valid=true

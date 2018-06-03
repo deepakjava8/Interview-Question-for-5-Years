@@ -1,0 +1,183 @@
+Data Structure
+============================================
+1)How to do reverse of Singly LinkedList?
+2)How to merge two Sorted list in data structure?
+3)How to merge two unsorted list and result should be in sorted manner and there should not be any duplicate element.
+4)How to make Queue using two Stack? -> Nokia 2nd round interview
+5)Suppose you have millions of record in ur DB; Which Searching Algorithm will apply to find particular element?
+6)Which is best Searching algo? Write the implementation of AVL search Tree? -> EMC2 1st round interview
+7)Which is best Sorting algorithm? Write the implementation of Merge and Quick sort?
+8)Write a program to find shortest path to reach from Bangalore to Delhi.
+ If you have given as node(Bangalore, Delhi, chenai, mumbai), Source is Bangalore and Destination is Delhi -  PWC 2nd round technical interview.
+9) Write an implementation of Circular linked list?
+10)How to remove middle element from linked list?- My SAP 1st round interview
+11)What happend to other level of child element;if you remove any one child elemnt from Binary serach tree? write the pseudo code. ->  VMWARE 2nd round 
+12)write the pseudo code for Bubble sort -> VMWARE 1st round
+13)Tell me the implementation of Binary search tree ->  HARMAN 1st round
+14)Write a binary serach program using recurion ->Sears Holding 2nd round
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Coding & logic check
+====================================================================================
+1)How to find non repeated character from a String?
+
+2)How to count number of repeated characters in a String?
+3)How to find repeated words in a Setnteance? >>Capgemini 2nd inerview
+4)How to count repeated words in file?=>VMWare interview 2nd round
+5)Write a program to convert given String str="9876" to integer int x=9876. Dont use any defind library or Wrapper calls in java? =>Harman 2nd round
+6)How to merger two ArrayList in java and ouput should be unique and sorted manner. >>SAP LAB 1st round
+7)Write a Fibbonaci and Factorial design pattern using recurion function?
+8)Write program for ArmStrong number?
+9)Write a program for reverse of a String using Recurion function. Nokia 1st Round 
+10)program to Find special charactes in String?
+11)Program to find all possible sub  string from a String.
+12)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Design pattern and Error
+==============================================================================================================
+1)What are the desisgn pattern you know and used in ur project?(Ans- creational, Behaviuoral and Structral and then start expliaing various design pattern)
+2)How to design Car parking System. Write the entire code structure?Which design Pattern you will use here?(Ans- decorator).-)In Amazon 1st round interview
+3)How to design a Vending machine?Which design patter you prefer here(Ans-Facade).-in SAP LAB inetrview
+4)How to design Bus booking System? -in Sheers Holding 2nd round interview
+5)What is the use of readResolve() in Singleton design pattern?
+4)How to design a Radio System in java? -In Pwc Managerial round
+5)What is singleton design pattern? explain where have u used in ur project?
+6)How to write Tripleton in java?Means how to restict ur object creation in java?(It would be same questuion)here?->Nokia 2nd round
+7)What is differnec between factory and Abstract factory design pattern?Explian with exampke
+8)What is Proxy design pattern?Exalpin with example
+9)What is Adapter design pattern?How you can use in your project exalpin.
+10)Give any example of Singleton and factory design pattern from ur java framework.
+11)What is UML design pattern?Tell me which Tool u have used to craete uml design for ur project.
+12)What is difference between Aggrgation and Compostion. Explain with UML diagram.
+13)What is difference between ClassNotFoundException and NoClassdefFoundError in java?
+14)What is ClassCastException?Explian the situation when u get this exception and resolution provided by you.
+15)What id StackOverflowError? cause of this error and resoluton?
+16)What is OutofMemoryError?Explain the cause and its resolution?
+17)What is ConcurrentModificationException?Explian the situation when u get this exception and resolution provided by you.
+=============================================================================================================================================
+Core JAVA
+
+1) What is race condition
+2) what is deadloack condition 
+3) Difference between JRE and JVM
+4) How can you make readOnly in collection 
+
+
+List<String> contents = new ArrayList<String>();
+        contents.add("Example");
+        contents.add("Tutorial");
+        contents.add("Program");
+contents = Collections.unmodifiableList(contents);
+
+
+
+      
+
+Read more: http://javarevisited.blogspot.com/2012/07/create-read-only-list-map-set-example-java.html#ixzz51jWVwJBV
+
+
+
+5) What is concurrent modification exception in java
+6) How will you make class immutable
+7) What is difference between JVM. JRE and JDK 
+
+
+=============================================================================================================================================
+
+1)Explain the OOps concept in java -> Netcracker interview
+2)When to use Abstract and interface in java?
+3)Suppose you have 2 interface I1 and I2 having same method showMe(). If you implement both interface in class SHOW then class will work or give compilation issue.
+4)How HashSet works in java? Tell me internal implementaion of add() and remove() method of HashSet?
+5)How Hashmap works?Tell me internal implemnetaion of HashMap?
+6)What is contract between Hashcode() and Equals()?
+7)What are the Collections's class method in java?
+8)what is the diffrence between HashMap and Hashtable?
+9)What is diffrenec between SynchronizedHashMap and Concurrent HashMap in java?
+10)Tell me internsal implentation of Concurrent HashMap?
+11)What is Fail fast and fail safe iterator?
+12)What is differnce between Iterator and ListIterator?
+13)Why Enumerator is better than Iterator?
+14)How to iterate map object in java?
+15)Why can't we use iterator interface to iterate map object?
+16)How to do object comparision in java?
+17)What is use of Private Constuctor in java ? explain with example .
+18)How to write Immutable class in java?
+19)How to provide 100% encapsulation towards a class in java?
+20)What are the types of Lock in java? Explain the re-entrant Lock in java?
+21)How to apply lock on any object in java?
+22)What are the types of Synchronization level(Class and method level Synchronization) explain with example?
+23)Suppose you have a class having Static and non static method with Synchronized keyword. How to Say which method will indicate class level locking and Object level locking?
+24)How to create Thread pool in java? Explain using BlockingQueue concept.
+24)What is future Callback method in java? Explain with example
+25)How to create thread using Executor framework in java?
+26)What really happen when we apply LOCK on any object in multithreading Scenario.
+27)What's the diffrenec between wait() and sleep() method in java?
+28)What are the Markable interface in java? Explain the Cloneable interface with example.
+30)What is Synchronzation and Serialization  in java?
+31)What happend to Super class when you serialized the child class only? Explain espeicially Deserilzaion concept here.
+32)How to achieve Serialization; in case of you want only to serialised Super class object not the Sub class object?
+33)How to achieve serialization using Externalizable interface?
+34)What is the use of SerialVersionId in serialization?What if you not add explictly serialversionId in class.
+35)why String is immutable in a java? Is String is thread safe in java?
+37)What is the use of Static keyword in java. explain with exmple?
+38)How to sort object in java based on different-ddifferent criteria?
+39)How to write own Iterator in java?
+40)How to write own wrapper class like Number in java?
+41)How to call private member variable outside the class or package in java?(Ans - reflection API)
+42)Explain Reflection API in java with example?
+43)How to call Stored procedure in java?
+45)Explian the Java architecture(Jdk, JVM and JRE) in java?
+46)How to do memory management in java?explain especial Heap memory here?
+47)How to increase performace of any Java application?Explain what you have done in your project.
+48)How to sort map object based on key if key is a type of other class object? For example: map.put(new Employye( 1,"Satya"),"Stupid Employee").
+49)What is Polymorphism(Exlpian overlaoding and Overriding with eaxmple)? 
+50)Exalpin the scenarion of Overriding concept with Exception handling?
+51)How to write Annonymous class in java? Give any example in java?
+52)What is Covariant return type?
+53)How to enable debug mode in ur appliaction after running your server?Explain any two java Library which is used for debugging a class.
+54)How to do Exception handling in java? Write ur own exception class?
+55)How to read excel data and feed that that into a FILE in java
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
+Database design
+=========================================================================================================
+1)Explain all DDL and DMl command in java?
+2)Explian intersection and Union concept in databse?
+3)What is Indexing in databse?Exlpain Hshing and B+ tree indexing concept?
+4)How to design DB schema for an University?  ->SAP 4th round
+5)Explain differnt types of Join in DB?
+6)How to fetch 3rd largest Salary from a Saraly table?
+7)What is the use of NVL in database?
+8)How to replace Null valuse with a String in Database? See similar kind of exaple.
+9)What is Trigger and Cursor? How to write Cursor in DB? =>SAP 4th  round
+10)Can we create table from a view?
+11)How to write a dynamic queary in Databse?
+12)How to write Stored Procedure in DB?
+===++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SPRING/ Spring Boot
+1) Mainly i have faced on MVC and IoC 
+2) Explainn Spring boot Life cycle ? 
+3) How spring boot removes configuration files
+
+
+=============================================================
+Hibernate
+1) what is bean life cycle 
+=========================================
+Webservice
+==================================================
+
+
+
+
+
+Angular 2 
+1) How to declare local and global variable in angular 2 
+2) what are the components of Angular2 ? Describe All 
+3) 
+
+
+
+
+
+============================================================================================
+I will be writing in ................
+
