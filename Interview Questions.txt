@@ -1,0 +1,34 @@
+Database
+---------
+1. Difference b/w SQL and NO-SQL.How u will impress your client to use from SQL to No-SQL or No-SQL to SQL.
+2. How Outer Joins work internally.
+
+
+
+
+Core Java
+----------
+1. Five reasons behind immutable of string why string is immutable.
+2. Which JDK Version u use and give three reasons to use?
+3. What are wrapper classes and when to use them?
+4. What is significance of hashcode()?
+5. what are design patterns you use frequently and why?
+6. write a java program to print following:
+
+		*******
+		 *****
+		  ***
+		   *
+
+
+
+
+Data Structure
+--------------
+1. Write a java program to implement Stack.
+
+
+AngularJS
+----------
+1. What is DOM in HTML?
+2. what is the difference b/w class and id attributes in HTML TAGs?
